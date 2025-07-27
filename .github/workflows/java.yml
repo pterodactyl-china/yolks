@@ -35,7 +35,7 @@ jobs:
           - 19zulu
           - 21
           - 21zulu
-          - 22zulu
+          - 24zulu
     steps:
       - uses: actions/checkout@v3
       - uses: docker/setup-qemu-action@v2

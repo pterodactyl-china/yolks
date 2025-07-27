@@ -77,8 +77,8 @@
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_21`
   * [`java21 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/21zulu)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_21zulu`
-  * [`java22 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/21zulu)
-    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_22zulu`
+  * [`java24 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/24zulu)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_24zulu`
 * [`nodejs`](https://github.com/pterodactyl-china/yolks/tree/master/nodejs)
   * [`node12`](https://github.com/pterodactyl-china/yolks/tree/master/nodejs/12)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:nodejs_12`

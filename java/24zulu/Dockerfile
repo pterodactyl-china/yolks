@@ -1,4 +1,4 @@
-FROM        --platform=$TARGETOS/$TARGETARCH azul/zulu-openjdk:22
+FROM        --platform=$TARGETOS/$TARGETARCH azul/zulu-openjdk:24
 
 LABEL       author="Vlssu" maintainer="vlssu@vlssu.com"
 ENV         DEBIAN_FRONTEND noninteractive

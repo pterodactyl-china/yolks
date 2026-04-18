@@ -27,6 +27,8 @@
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/games:rust`
   * [`source`](https://github.com/pterodactyl-china/yolks/tree/master/games/source)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/games:source`
+  * [`hytale`](https://github.com/pterodactyl-china/yolks/tree/master/games/hytale)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/games:hytale`
 * [`golang`](https://github.com/pterodactyl-china/yolks/tree/master/go)
   * [`go1.14`](https://github.com/pterodactyl-china/yolks/tree/master/go/1.14)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:go_1.14`
@@ -77,8 +79,8 @@
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_21`
   * [`java21 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/21zulu)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_21zulu`
-  * [`java24 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/24zulu)
-    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_24zulu`
+  * [`java25`](https://github.com/pterodactyl-china/yolks/tree/master/java/25)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_25`
   * [`java25 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/25zulu)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_25zulu`
 * [`nodejs`](https://github.com/pterodactyl-china/yolks/tree/master/nodejs)

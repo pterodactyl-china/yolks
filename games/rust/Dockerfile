@@ -36,7 +36,7 @@ RUN			dpkg --add-architecture i386 \
 			&& curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
 			&& apt install -y nodejs \
 			&& mkdir /node_modules \
-			&& npm install --prefix / ws \
+			&& cd /tmp && npm install ws && mv /tmp/node_modules/* /node_modules/ && rm -rf /tmp/node_modules /tmp/package-lock.json \
 			&& useradd -d /home/container -m container
 
 RUN 		apt-get install -y locales

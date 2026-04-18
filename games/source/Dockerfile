@@ -35,25 +35,16 @@ RUN         dpkg --add-architecture i386 \
             && apt install -y tar curl gcc g++ lib32gcc-s1 libcurl4:i386 libssl3:i386 lib32tinfo6 libtinfo6:i386 lib32z1 lib32stdc++6 libncurses6:i386 libsdl2-2.0-0:i386 iproute2 gdb libfontconfig1 telnet net-tools netcat-traditional tzdata \
             && useradd -m -d /home/container container
 
-RUN                 apt-get install -y locales
-RUN                 sed -i -e 's/# zh_CN.UTF-8 UTF-8/zh_CN.UTF-8 UTF-8/' /etc/locale.gen && sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && locale-gen
-ENV                 LANG en_US.UTF-8
-ENV                 LANGUAGE en_US:zh_CN
-ENV                 LC_ALL en_US.UTF-8
+RUN 		apt-get install -y locales
+RUN 		sed -i -e 's/# zh_CN.UTF-8 UTF-8/zh_CN.UTF-8 UTF-8/' /etc/locale.gen && sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && locale-gen
+ENV 		LANG en_US.UTF-8
+ENV 		LANGUAGE en_US:zh_CN
+ENV 		LC_ALL en_US.UTF-8
 
-## install rcon
-RUN         cd /tmp/ \
-            && curl -sSL https://github.com/gorcon/rcon-cli/releases/download/v0.10.3/rcon-0.10.3-amd64_linux.tar.gz > rcon.tar.gz \
-            && tar xvf rcon.tar.gz \
-            && mv rcon-0.10.3-amd64_linux/rcon /usr/local/bin/
 
 USER        container
 ENV         USER=container HOME=/home/container
 WORKDIR     /home/container
 
-STOPSIGNAL SIGINT
-
-COPY        --chown=container:container ./entrypoint.sh /entrypoint.sh
-RUN         chmod +x /entrypoint.sh
-ENTRYPOINT    ["/usr/bin/tini", "-g", "--"]
-CMD         ["/entrypoint.sh"]
+COPY        ./entrypoint.sh /entrypoint.sh
+CMD         [ "/bin/bash", "/entrypoint.sh" ]

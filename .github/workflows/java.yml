@@ -23,6 +23,7 @@ jobs:
           - 11j9
           - 11zulu
           - 16
+          - 16j9
           - 16zulu
           - 17
           - 17j9
@@ -35,6 +36,12 @@ jobs:
           - 19zulu
           - 21
           - 21zulu
+          - 22
+          - 22zulu
+          - 23
+          - 23zulu
+          - 24
+          - 24zulu
           - 25
           - 25zulu
     steps:

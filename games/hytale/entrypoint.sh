@@ -57,4 +57,9 @@ if [[ -f config.json && -n "$HYTALE_MAX_VIEW_RADIUS" ]]; then
 	jq ".MaxViewRadius = $HYTALE_MAX_VIEW_RADIUS" config.json > config.tmp.json && mv config.tmp.json config.json
 fi
 
+if [[ "${HYTALE_NO_GSP_AUTH}" == "1" ]]; then
+	unset HYTALE_SERVER_SESSION_TOKEN
+	unset HYTALE_SERVER_IDENTITY_TOKEN
+fi
+
 /java.sh $@

@@ -29,6 +29,8 @@
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/games:source`
   * [`hytale`](https://github.com/pterodactyl-china/yolks/tree/master/games/hytale)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/games:hytale`
+  * [`conan_exiles`](https://github.com/pterodactyl-china/yolks/tree/master/games/conan_exiles)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/games:conan_exiles`
 * [`golang`](https://github.com/pterodactyl-china/yolks/tree/master/go)
   * [`go1.14`](https://github.com/pterodactyl-china/yolks/tree/master/go/1.14)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:go_1.14`
@@ -38,6 +40,24 @@
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:go_1.16`
   * [`go1.17`](https://github.com/pterodactyl-china/yolks/tree/master/go/1.17)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:go_1.17`
+  * [`go1.18`](https://github.com/pterodactyl-china/yolks/tree/master/go/1.18)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:go_1.18`
+  * [`go1.19`](https://github.com/pterodactyl-china/yolks/tree/master/go/1.19)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:go_1.19`
+  * [`go1.20`](https://github.com/pterodactyl-china/yolks/tree/master/go/1.20)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:go_1.20`
+  * [`go1.21`](https://github.com/pterodactyl-china/yolks/tree/master/go/1.21)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:go_1.21`
+  * [`go1.22`](https://github.com/pterodactyl-china/yolks/tree/master/go/1.22)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:go_1.22`
+  * [`go1.23`](https://github.com/pterodactyl-china/yolks/tree/master/go/1.23)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:go_1.23`
+  * [`go1.24`](https://github.com/pterodactyl-china/yolks/tree/master/go/1.24)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:go_1.24`
+  * [`go1.25`](https://github.com/pterodactyl-china/yolks/tree/master/go/1.25)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:go_1.25`
+  * [`go1.26`](https://github.com/pterodactyl-china/yolks/tree/master/go/1.26)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:go_1.26`
 * [`java`](https://github.com/pterodactyl-china/yolks/tree/master/java)
   * [`java8`](https://github.com/pterodactyl-china/yolks/tree/master/java/8)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_8`
@@ -79,6 +99,18 @@
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_21`
   * [`java21 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/21zulu)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_21zulu`
+  * [`java22`](https://github.com/pterodactyl-china/yolks/tree/master/java/22)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_22`
+  * [`java22 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/22zulu)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_22zulu`
+  * [`java23`](https://github.com/pterodactyl-china/yolks/tree/master/java/23)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_23`
+  * [`java23 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/23zulu)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_23zulu`
+  * [`java24`](https://github.com/pterodactyl-china/yolks/tree/master/java/24)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_24`
+  * [`java24 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/24zulu)
+    * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_24zulu`
   * [`java25`](https://github.com/pterodactyl-china/yolks/tree/master/java/25)
     * `registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_25`
   * [`java25 - Zulu`](https://github.com/pterodactyl-china/yolks/tree/master/java/25zulu)
